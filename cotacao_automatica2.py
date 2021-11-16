@@ -54,4 +54,4 @@ def plota_bolsas(nome_bolsa):
 
 resultado = parallel(n_jobs = 2)(delayed(plota_bolsas)(nome_bolsa) for nome_bolsa in lista_CodBolsas)
 
-
+#fazendo um teste
